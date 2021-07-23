@@ -1,0 +1,337 @@
+
+
+.outside-while{
+        border:1px solid #a6a6a6;
+		font-size:1.1vw;
+		font-weight:300;
+		color:#a6a6a6;
+		text-align: center;
+    }
+
+    .inside-while{
+        border:1px solid #a6a6a6;
+		color:#a6a6a6;
+		font-size:1.1vw;
+		font-weight:300;
+		text-align: center;
+    }
+	.btn-group .button {
+  background-color: white;
+  border: 1px solid #88CFBE;
+  color: #333;
+  
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.7vw;
+  cursor: pointer;
+  width: 25%;
+  
+  display: block;
+	}
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #a6a6a6;
+  color:white;
+}
+table {
+  width: 110%;
+}
+
+p {
+	color: #a6a6a6;
+	font-size:1.3vw;
+}
+
+p3 {
+	color: #a6a6a6;
+	font-size:1vw;
+}
+
+h9 {
+	color: #88CFBE;
+	font-size:3vw;
+	font-weight:bold;
+}
+p1 {
+	color: #88CFBE;
+	font-size:2vw;
+	font-weight:bold;
+}
+
+p2 {
+	color: #a6a6a6;
+	font-size:1vw;
+	font-weight:bold;
+}
+
+td, th {
+	color:#a6a6a6;
+	font-size:1vw;
+}
+
+.datetimepicker {
+background:#FFFFFF;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+border-bottom-right-radius:5px;
+border-bottom-left-radius:5px;
+overflow:hidden;
+-webkit-box-shadow:0 6px 12px rgba(0,0,0,.176);
+box-shadow:0 6px 12px rgba(0,0,0,.176);
+max-width:350px;
+display:inline-block;
+padding:1px;
+}
+
+.datetimepicker+.datetimepicker {
+margin-left:15px;
+}
+
+.datetimepicker .paging {
+text-align:center;
+font-size:0.75vw;
+position:relative;
+padding:1px;
+}
+
+.datetimepicker .paging .month-name {
+text-transform:uppercase;
+font-weight:700;
+fontsize:3vw;
+}
+
+.datetimepicker .paging i {
+width:0;
+height:0;
+display:inline-block;
+vertical-align:middle;
+position:absolute;
+top:9px;
+line-height:24px;
+cursor:pointer;
+border-color:#88CFBE;
+border-style:solid;
+border-width:5px;
+}
+
+.datetimepicker .paging i.prev {
+left:0;
+border-top-color:transparent;
+border-bottom-color:transparent;
+border-left-style:none;
+}
+
+.datetimepicker .paging i.next {
+right:0;
+border-top-color:transparent;
+border-bottom-color:transparent;
+border-right-style:none;
+}
+
+.datetimepicker table {
+font-weight:400;
+font-size:0.8vw;
+color:#88CFBE;
+border-collapse:collapse;
+width:100%;
+}
+
+.datetimepicker table td {
+text-align:center;
+border:1px solid #88CFBE;
+padding:1px;
+}
+
+.datetimepicker table td.near-month {
+color:#88CFBE;
+}
+
+.datetimepicker table td.cur-date.cur-month {
+background:#88CFBE;
+}
+
+.datetimepicker table td.unavailable {
+background:#FF0000;
+color:#88CFBE;
+}
+
+.datetimepicker table thead {
+font-weight:700;
+}
+
+.datetimepicker table thead td {
+border:none;
+border-bottom:2px solid #88CFBE;
+min-width:40px;
+}
+
+.datetimepicker table tbody td:hover {
+background:#a6a6a6;
+cursor:pointer;
+}
+
+.datetimepicker table tbody td:hover.unavailable {
+background:#FF0000;
+cursor:not-allowed;
+}
+input[type=text2] {
+	background: #ffffff;
+    border: 1px solid #aaa;
+    color: black;
+	font-size: 12px;
+	
+}	
+input[type=number] {
+	background: #ffffff;
+    border: 1px solid #aaa;
+    color: black;
+	font-size: 12px;
+	
+}	
+
+@media screen and (max-width: 600px) {
+
+.datetimepicker {
+background:#FFFFFF;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+border-bottom-right-radius:5px;
+border-bottom-left-radius:5px;
+overflow:hidden;
+-webkit-box-shadow:0 6px 12px rgba(0,0,0,.176);
+box-shadow:0 6px 12px rgba(0,0,0,.176);
+max-width:600px;
+display:inline-block;
+padding:1px;
+}
+
+.datetimepicker+.datetimepicker {
+margin-left:5px;
+}
+
+.datetimepicker .paging {
+text-align:center;
+font-size:0.75vw;
+position:relative;
+padding:1px;
+}
+
+.datetimepicker .paging .month-name {
+text-transform:uppercase;
+font-size:2.5vw;
+font-weight:300;
+}
+
+.datetimepicker .paging i {
+width:0;
+height:0;
+display:inline-block;
+vertical-align:middle;
+position:absolute;
+top:9px;
+line-height:12px;
+cursor:pointer;
+border-color:#88CFBE;
+border-style:solid;
+border-width:5px;
+}
+
+.datetimepicker .paging i.prev {
+left:0;
+border-top-color:transparent;
+border-bottom-color:transparent;
+border-left-style:none;
+}
+
+.datetimepicker .paging i.next {
+right:0;
+border-top-color:transparent;
+border-bottom-color:transparent;
+border-right-style:none;
+}
+
+.datetimepicker table {
+font-weight:200;
+font-size:0.5vw;
+color:#88CFBE;
+border-collapse:collapse;
+width:100%;
+}
+
+.datetimepicker table td {
+text-align:center;
+border:1px solid #88CFBE;
+padding:1px;
+}
+
+.datetimepicker table td.near-month {
+color:#88CFBE;
+}
+
+.datetimepicker table td.cur-date.cur-month {
+background:#88CFBE;
+}
+
+.datetimepicker table td.unavailable {
+background:#FF0000;
+color:#88CFBE;
+}
+
+.datetimepicker table thead {
+font-weight:400;
+}
+
+.datetimepicker table thead td {
+border:none;
+border-bottom:2px solid #88CFBE;
+min-width:20px;
+}
+
+.datetimepicker table tbody td:hover {
+background:#a6a6a6;
+cursor:pointer;
+}
+
+.datetimepicker table tbody td:hover.unavailable {
+background:#FF0000;
+cursor:not-allowed;
+}
+table {
+  width: 150%;
+}
+
+p {
+	color: #a6a6a6;
+	font-size:1.0vw;
+}
+
+p3 {
+	color: #a6a6a6;
+	font-size:1vw;
+}
+
+h9 {
+	color: #88CFBE;
+	font-size:2vw;
+	font-weight:bold;
+}
+p1 {
+	color: #88CFBE;
+	font-size:1vw;
+	font-weight:bold;
+}
+
+p2 {
+	color: #a6a6a6;
+	font-size:1vw;
+	font-weight:bold;
+}
+
+td, th {
+	color:#a6a6a6;
+	font-size:1vw;
+}
+}

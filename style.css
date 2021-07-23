@@ -1,0 +1,577 @@
+/* global styles */
+
+body {
+    margin-right: auto;
+    min-width: 1px;
+    padding-bottom: 1em;
+    
+    font: .8em sans-serif;
+    
+}
+
+span.name {
+	color:#66ccff;
+}
+
+
+
+textarea {
+	width: 100%;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: red;
+	font-weight: bold;
+    cursor: pointer;
+    outline: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #235a81;
+}
+
+h1 {
+    font-size: 20px;
+	color: blue;
+}
+p {
+	font-size: 14px;
+	color: blue;
+}
+p1{
+	font-size: 12px;
+	color: blue;
+	
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* menu */
+
+
+/* phpMyAdmin logo colors */
+
+.blue {
+    color: #666699;
+}
+
+.orange {
+    color: #FF9900;
+}
+
+.red {
+    color: #C00;
+}
+
+
+
+
+div.blok {
+	background-color: lightgrey;
+    width: 50px;
+    border: 1px solid green;
+    left: 250px;
+}
+
+
+div.relative {
+    position: relative;
+    left: 20px;
+    
+}
+
+div.absolute1 {
+    position: absolute;
+	top: 90px;  
+	left: 500px;
+    text-align: left;
+}
+
+div.blok1 {
+    position: absolute;
+	top: 90px;  
+	left: 50px;
+    text-align: left;
+}
+
+div.blok2 {
+    position: absolute;
+	top: 90px;  
+	left: 500px;
+    text-align: left;
+}
+
+div.absolute2 {
+    position: absolute;
+	top: 38px;
+	
+    margin-left: 40%;
+	
+    width: 75%;
+    text-align: left;
+}
+
+div.kop {
+    position: absolute;
+	top: 10px;
+	
+    margin-left: 10px;
+	
+    width: 200%;
+    text-align: left;
+}
+ 
+div.menu {
+	
+	padding: 1%;
+
+	width: 15%;
+    float: left;
+	border: 2px solid blue;
+}
+
+div.menu_boven {
+	
+	padding: 1%;
+	font-size: 20px;
+	width: 200%;
+	height: 50px;
+    float: left;
+	border: 2px solid blue;
+}
+
+/* form tabs */
+
+ul.tabs {
+    margin: 1.1em 2px 0;
+    padding: 0 0 3px 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+ul.tabs li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+ul.tabs li a {
+    display: block;
+    margin: 1px .2em 0;
+    white-space: nowrap;
+    text-decoration: none;
+    border: 1px solid #D5D5D5;
+    border-bottom: 1px solid #aaa;
+}
+
+ul.tabs li a {
+    padding: 7px 10px;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    background: #f2f2f2;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
+}
+
+ul.tabs li a:hover,
+ul.tabs li a:active {
+    background: #e5e5e5;
+}
+
+ul.tabs li.active a {
+    background-color: #fff;
+    margin-top: 1px;
+    color: #000;
+    text-shadow: none;
+    border-color: #aaa;
+    border-bottom: 1px solid #fff;
+}
+
+.tabs_contents {
+    margin-top: 13px;
+}
+
+.tabs_contents fieldset {
+    margin-top: 0;
+}
+
+.tabs_contents legend {
+    display: none;
+}
+
+/* "restore default value" and "set value: foo" buttons */
+
+.restore-default img, .set-value img {
+    margin-bottom: -3px;
+}
+
+.userprefs-comment {
+    cursor: help;
+    float: right;
+}
+
+/* forms */
+
+fieldset {
+    margin-top: 1em;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border: #aaa solid 1px;
+    padding: 1.5em;
+    background: #eee;
+    text-shadow: 0 1px 0 #fff;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+
+fieldset.optbox {
+    padding: 0;
+}
+
+fieldset fieldset {
+    margin: .8em;
+    border: 1px solid #aaa;
+    background: #E8E8E8;
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #bbb;
+}
+
+.form {
+    border: 2px #DEE1FF solid;
+}
+
+fieldset p {
+    margin: 0;
+    padding: .5em;
+    background: #fff;
+    border-top: 0;
+}
+
+fieldset .errors { /* form error list */
+    margin: 0 -2px 1em -2px;
+    padding: 0.5em 1.5em;
+    background: #FBEAD9;
+    border: 1px #C83838 solid;
+    border-width: 1px 0;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+fieldset .inline_errors { /* field error list */
+    margin: 0.3em 0.3em 0.3em 0;
+    padding: 0;
+    list-style: none;
+    color: #9A0000;
+    font-size: small;
+}
+
+table caption, table th, table td {
+    color: blue;
+	font-size:14px;
+	text-align: center;
+}
+
+fieldset th {
+    width: 40%;
+    min-width: 350px;
+    padding: 0.3em 0.3em 0.3em 0.5em;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+fieldset.simple th {
+    width: auto;
+    min-width: 0;
+}
+
+fieldset .doc {
+    margin-left: 1em;
+}
+
+fieldset td {
+    padding-top: 0.3em;
+    vertical-align: top;
+}
+
+fieldset td.userprefs-allow {
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    width: 3em;
+}
+
+fieldset td.userprefs-allow:hover {
+    cursor: pointer;
+    background-color: #EEE;
+}
+
+fieldset th small {
+    display: block;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: x-small;
+    color: #666;
+}
+
+fieldset th, fieldset td, .form .lastrow {
+    border-top: 1px solid #D5D5D5;
+}
+
+fieldset .group-header th {
+    background: #EAEDFF;
+    border: none;
+}
+
+fieldset .group-field-1 th, fieldset .group-header-2 th {
+    padding-left: 1em;
+}
+
+fieldset .group-field-2 th, fieldset .group-header-3 th {
+    padding-left: 2em;
+}
+
+fieldset .group-field-3 th {
+    padding-left: 3em;
+}
+
+fieldset .lastrow, .form .lastrow {
+    border-top: 1px #000 solid;
+    background: #D3DCE3;
+    padding: .5em;
+    text-align: center;
+}
+
+
+
+input[type=textarea] {
+	
+	background: #F6CECE;
+    border: 1px solid #aaa;
+    color: red;
+	font-size: 12px;
+	width:100px;
+}	
+input[type=text1] {
+	background: #e6f2ff;
+    border: 1px solid #aaa;
+    color: blue;
+	font-size: 12px;
+	
+}	
+input[type=text2] {
+	background: #e6f2ff;
+    border: 1px solid #aaa;
+    color: blue;
+	font-size: 12px;
+	
+}	
+
+input[type=date] {
+	background: #e6f2ff;
+    border: 1px solid #aaa;
+    color: blue;
+	font-size: 12px;
+	width: 125px;
+}
+
+input[type=text],
+input[type=number] {
+    
+
+    background: #e6f2ff;
+    border: 1px solid #aaa;
+    color: blue;
+	font-size: 12px;
+	
+    
+}
+input[type=time] {
+    
+
+    background: #e6f2ff;
+    border: 1px solid #aaa;
+    color: blue;
+	font-size: 12px;
+	width: 90px;
+    
+}
+input[type=password] {
+    
+
+    background: #e6f2ff;
+    border: 1px solid #aaa;
+    color: blue;
+    
+	font-size: 12px;
+	
+    
+}
+
+
+
+input[type=submit] {
+    
+	margin-left: 0px;
+    border: 1px solid #aaa;
+    padding: 3px 7px;
+    color: red;
+    text-decoration: none;
+    background: #e6f2ff;
+
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+
+    text-shadow: 0 1px 0 #fff;
+
+}
+
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: -11%;
+}
+
+
+select {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    -moz-box-shadow: 0 1px 1px #ddd;
+    -webkit-box-shadow: 0 1px 1px #ddd;
+    box-shadow: 0 1px 1px #ddd;
+
+    border: 1px solid #aaa;
+    color: #333;
+    padding: 1px;
+    background: #e6f2ff;
+    margin: 0px;
+}
+
+
+fieldset.simple th, fieldset.simple td {
+    border-top: none;
+    border-bottom: 1px #555 dotted;
+}
+
+fieldset.simple .lastrow {
+    border: 0;
+}
+
+/* form elements */
+
+span.checkbox {
+    padding: 2px;
+    display: inline-block;
+}
+
+.custom { /* customized field */
+    background: #FFC;
+}
+
+.checkbox.custom {
+    padding: 1px;
+    border: 1px #EDEC90 solid;
+}
+
+.field-error {
+    border-color: #C11 !important;
+}
+
+.field-comment {
+
+    position: relative;
+}
+
+.field-comment-mark {
+    cursor: help;
+    padding: 0 0.2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.field-comment-warning {
+    color: #A00;
+}
+
+.green { /* default form button */
+    color: #080 !important;
+}
+
+table.datatable {
+    margin: 0.5em 0 1em;
+}
+
+table.datatable th {
+    padding: 0 1em 0 0.5em;
+    border-bottom: 1px #999 solid;
+    text-align: left;
+}
+
+table.datatable td {
+	font-size: 12px;
+    padding: 1px 0.5em;
+    border-bottom: 1px #DEE1FF solid;
+}
+
+/* textarea with config file's contents */
+
+#textconfig {
+    width: 100%;
+    border: 0;
+}
+
+/* error list */
+
+dd {
+    margin-left: 0.5em;
+}
+
+dd:before {
+    content: "\25B8  ";
+}
+
+/* links on failed validation page, when saving a form */
+
+a.btn {
+    padding: 1px 5px;
+    text-decoration: none;
+    background: #E2E8FF;
+    border: 1px #A6C8FF solid;
+    border-top-color: #AFD0FF;
+    border-left-color: #AFD0FF;
+    font-weight: bold;
+}
+
+a.btn:hover, a.btn:active {
+    background: #E6F5FF;
+    color: #004C96;
+}

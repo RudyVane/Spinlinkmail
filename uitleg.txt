@@ -1,0 +1,24 @@
+Hoe werkt deze app.
+
+Na het inloggen kom je automatisch op de berichtenpagina.
+Om een bericht te verzenden klik je op het envelopje linksboven.
+Je komt op de verzendpagina. Kies de groep waarnaar je wilt mailen.
+Kies STUDIO SPINLINK om iedereen te bereiken.
+Vul een onderwerp in en je bericht. klik op verzenden. Je komt weer op de berichtenpagina.
+Wil je toch geen bericht verzenden, klik dan op het boek-icoon linksboven om terug te gaan naar de berichtenpagina.
+Standaard worden alle berichten waar jij toegang toe hebt weergegeven.
+Klik op de radiobutton van een groep om alleen de berichten voor die groep weer te geven.
+Berichten die nog niet gelezen zijn hebben een zwarte text op een witte achtergrond.
+Berichten die als gelezen zijn gemarkeerd hebben een witte tekst met een groene achtergrond.
+Om een bericht als gelezen te markeren druk je even op het bericht tot je telefoon trilt.
+Na verversen zal het bericht dan als gelezen worden getoond.
+Om te reageren op een bericht klik je kort op het bericht.
+Je komt dan op de reactiepagina. Klik op Bericht en schrijf je reactie. Klik dan op Verzenden.
+Je keert terug naar de berichtenpagina.
+Wil je toch niet reageren en meteen terug naar de berichtenpagina, klik dan op het boek-icoon linksboven.
+Als er een nieuw bericht binnenkomt krijg je een notificatie. Staat je app nog open dan kun je op de verversbutton klikken,
+Het nieuwe bericht verschijnt bovenaan.
+Is je app afgesloten, dan draait hij nog wel op de achtergrond. Klik dan op de notificatie om de app weer te openen.
+
+Er is ook een webversie van deze app, ga daarvoor naar https://www.spinlink.nl/SpinLinkMail
+
