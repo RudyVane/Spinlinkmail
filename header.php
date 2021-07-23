@@ -138,13 +138,13 @@ if ( window.history.replaceState ) {
 <br>
 
 	<div class = "btn-group">
-				<button class="button" onclick="location='/SpinLinkMail/update.php'">Update appversie</button>
-				<button class="button" onclick="location='/SpinLinkMail/user.php'">Invoer gebruikers</button>
-				<button class="button" onclick="location='/SpinLinkMail/groep.php'">Invoer groepen</button>
-				<button class="button" onclick="location='/SpinLinkMail/userherstel.php'">Wachtwoord veranderen</button>
-				<button class="button" onclick="location='/SpinLinkMail/webverzenden.php'">Berichten verzenden</button>
-				<button class="button" onclick="location='/webberichten.php'">Berichten lezen</button>
-				<button class="button" onclick="location='/SpinLinkMail/agenda/Invoer.php'">Agendabeheer</button>
+				<button class="button" onclick="location='update.php'">Update appversie</button>
+				<button class="button" onclick="location='user.php'">Invoer gebruikers</button>
+				<button class="button" onclick="location='groep.php'">Invoer groepen</button>
+				<button class="button" onclick="location='userherstel.php'">Wachtwoord veranderen</button>
+				<button class="button" onclick="location='webverzenden.php'">Berichten verzenden</button>
+				<button class="button" onclick="location='webberichten.php'">Berichten lezen</button>
+				<button class="button" onclick="location='agenda/Invoer.php'">Agendabeheer</button>
 				
 			
 
